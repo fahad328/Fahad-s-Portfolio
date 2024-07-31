@@ -4,6 +4,7 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 import mail_icon from "../../assets/mail_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
 import call_icon from "../../assets/call_icon.svg";
+import fiverr_icon from "../../assets/fiverr1.svg";
 
 const Contact = () => {
   const validateEmail = (email) => {
@@ -66,6 +67,12 @@ const Contact = () => {
               <div className="contact-detail">
                 <img src={call_icon} alt="" />
                 <p>+92 3425539309</p>
+              </div>
+              <div className="contact-detail">
+                <a href="https://www.fiverr.com/s/kLow8ow" target="_blank">
+                  <img src={fiverr_icon} alt="Fiverr Icon" className="fiverr"/>
+                </a>
+                <p>Click to visit</p>
               </div>
             </div>
           </div>
