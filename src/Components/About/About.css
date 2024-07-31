@@ -138,7 +138,7 @@
       gap: 40px;
     }
     .about-para {
-      font-size: 16px;
+      font-size: 10px;
     }
     .about-skills p {
       font-size: 16px;
@@ -176,7 +176,10 @@
       margin: 40px 20px;
     }
     .about-title h1 {
-      font-size: 30px;
+      font-size: 25px;
+    }
+    .about-title img{
+      width: 100px;
     }
     .about-para {
       font-size: 12px;

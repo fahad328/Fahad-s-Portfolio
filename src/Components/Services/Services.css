@@ -91,3 +91,48 @@
      
     
 }
+@media screen and (max-width: 480px){
+    .services-title h1{
+        font-size: 25px;
+    }
+    .services-title img{
+        width: 70px;
+    }
+    .services-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .services-format{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        padding: 60px;
+        border: 2px solid white;
+        border-radius: 10px;
+        transition: 0.5s;
+        cursor: pointer;
+    
+    }
+    .services-format h3{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .services-format h2{
+        font-size: 25px;
+        font-weight:800 ;
+        background:linear-gradient(267deg,#DA7C25 ,#B923E1); 
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .services-format p{
+        color: #fff;
+        font-size: 15px;
+        line-height: 15px;
+        max-width: 200px;
+    }
+}

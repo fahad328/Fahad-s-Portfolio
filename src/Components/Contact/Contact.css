@@ -177,10 +177,55 @@
         flex-direction: column;
         gap: 10px;
     }
-    .contact-right input, .contact-right textarea {
-        width: 100%;
-    }
+    
     .contact-title h1 {
+        font-size: 30px;
+    }
+    .contact-title img{
+        width: 50px;
+    }
+    .contact-left h1{
+        font-size: 30px;
+    }
+    .contact-left p {
+        max-width: 400px;
+        font-size: 15px;
+        line-height: 20px;
+    
+    }
+    .contact-right label {
+        color: #fff;
         font-size: 18px;
+        font-weight: 500;
+    
+    }
+    .contact-right input{
+        width: 300px;
+    }
+    
+   
+    
+    .contact-right textarea {
+        border: none;
+        width: 300px;
+        height: 50px;
+        padding: 25px;
+        background: #32323c;
+        color: #A0A0A0;
+        border-radius: 4px;
+        font-family: outfit;
+        font-size: 20px;
+    }
+    
+    .contact-submit {
+        border: none;
+        color: #201d1d;
+        border-radius: 50px;
+        padding: 10px 30px;
+        background: linear-gradient(267deg, #e9a464, #b609e6);
+        font-size: 22px;
+        margin-bottom: 50px;
+        cursor: pointer;
+        transition: .34s;
     }
 }
