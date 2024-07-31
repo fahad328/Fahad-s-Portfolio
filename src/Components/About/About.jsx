@@ -17,12 +17,12 @@ const About = () => {
                 <div className="about-right">
                     <div className="about-para">
                         <p>I am a passionate and results-driven Frontend Developer with 2 years of experience in crafting seamless and responsive web applications. Over the past two years, I have honed my skills in various aspects of frontend development, including UI/UX Design and Responsive Design.</p>
-                        <p>I am committed to continuous learning and staying current with the latest industry trends and technologies. This dedication allows me to bring innovative solutions to the table and deliver exceptional results on every project.</p>
+                        <p>I am committed to continuous learning and staying current with the latest industry trend and technologies. This dedication allows me to bring innovative solutions to the table and deliver exceptional results on every project.</p>
                     </div>
                     <div className="about-skills">
                         <div className="skill-item"><p>HTML & CSS</p><hr style={{width:"70%"}}/> </div>
                         <div className="skill-item"><p>React JS</p><hr  style={{width:"60%"}}/></div>
-                        <div className="skill-item"><p>JavaScript</p><hr  style={{width:"50%"}}/></div>
+                        <div className="skill-item"><p>tailwind</p><hr  style={{width:"50%"}}/></div>
 
                     </div>
                 </div>
