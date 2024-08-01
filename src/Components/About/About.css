@@ -180,6 +180,7 @@
     }
     .about-title img{
       width: 100px;
+      
     }
     .about-para {
       font-size: 12px;
@@ -193,8 +194,16 @@
     .about-achievement {
       margin-bottom: 20px;
     }
+    .about-left{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     .about-left img {
       width: 200px;
       height: 250px;
+      position: relative;
+      left: 0;
+      right: 100px;
     }
   }

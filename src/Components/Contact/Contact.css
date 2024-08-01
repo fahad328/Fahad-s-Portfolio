@@ -169,13 +169,14 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 330px) {
     .contact {
         margin: 10px 10px;
     }
     .contact-section {
         flex-direction: column;
-        gap: 10px;
+        width: 80%
+        
     }
     
     .contact-title h1 {
@@ -195,19 +196,19 @@
     }
     .contact-right label {
         color: #fff;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 500;
     
     }
     .contact-right input{
-        width: 300px;
+        width: 200px;
     }
     
    
     
     .contact-right textarea {
         border: none;
-        width: 300px;
+        width: 200px;
         height: 50px;
         padding: 25px;
         background: #32323c;
@@ -221,11 +222,14 @@
         border: none;
         color: #201d1d;
         border-radius: 50px;
-        padding: 10px 30px;
+        padding: 7px 20px;
         background: linear-gradient(267deg, #e9a464, #b609e6);
         font-size: 22px;
         margin-bottom: 50px;
         cursor: pointer;
         transition: .34s;
+    }
+    .contact-detail img{
+        width: 30px;
     }
 }

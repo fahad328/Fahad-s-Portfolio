@@ -92,15 +92,21 @@
     
 }
 @media screen and (max-width: 480px){
+   
+
     .services-title h1{
         font-size: 25px;
+        width: 100%;
     }
     .services-title img{
-        width: 70px;
+        width: 100px;
     }
     .services-container{
         display: grid;
-        grid-template-columns: 1fr;
+
+        
+
+        
         
     }
     .services-format{
@@ -112,7 +118,7 @@
         border: 2px solid white;
         border-radius: 10px;
         transition: 0.5s;
-        cursor: pointer;
+        
     
     }
     .services-format h3{
@@ -131,8 +137,102 @@
     
     .services-format p{
         color: #fff;
-        font-size: 15px;
+        font-size: 10px;
         line-height: 15px;
-        max-width: 200px;
+        width: 200px;
     }
+
+    .read-more{
+        display: flex;
+        /* gap: 0px; */
+        align-items: center;
+        margin-top: 20px;
+        width: 50%;
+        height: 50%;
+    }
+    .read-more p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .read-more img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        right: 0px;
+
+    }
+}
+
+    @media screen and (max-width: 330px){
+   
+
+        .services-title h1{
+            font-size: 25px;
+            width: 100%;
+        }
+        .services-title img{
+            width: 100px;
+        }
+        .services-container{
+            display: grid;   
+        }
+        .services-format{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            padding: 60px;
+            border: 2px solid white;
+            border-radius: 10px;
+            transition: 0.5s;
+            
+        
+        }
+        .services-format h3{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        
+        .services-format h2{
+            font-size: 20px;
+            font-weight:800 ;
+            background:linear-gradient(267deg,#DA7C25 ,#B923E1); 
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .services-format p{
+            color: #fff;
+            font-size: 10px;
+            line-height: 15px;
+            width: 100px;
+        }
+    
+        .read-more{
+            display: flex;
+            /* gap: 0px; */
+            align-items: center;
+            margin-top: 20px;
+            width: 50%;
+            height: 50%;
+        }
+        .read-more p{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            white-space: nowrap;
+        }
+        .read-more img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            right: 0px;
+    
+        }
+     
+    
 }
